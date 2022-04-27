@@ -1,0 +1,64 @@
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#story{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+     
+}
+#image{
+    width: 130%;
+    height: 200%;
+}
+.main{
+    background-color: beige;
+    margin: 20px;
+
+}
+#graduation{
+    border: 1px solid black;
+    padding: 50px;
+    padding-left: 50px;
+    margin-left: 50px;
+    border-right: 20px;
+    border-bottom: 20px;
+    border-top: 20px;
+}
+.success{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     font-size: bold;
+     color: rgb(137, 173, 173);
+}
+.gallery{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.interview{
+    border: 1px solid black;
+    margin: 30px;
+}
+.simplify{
+    border: 1px solid black;
+    margin: 40px;
+}
+.youtube{
+    border: 1px solid black;
+    margin: 20px;
+}
+.projects{
+    border: 1px solid black;
+    border-right: 20px;
+    border-top: 20px;
+    border-bottom: 20px;
+    margin: 20px;
+
+}
+.work{
+    border: 1px solid black;
+    margin: 20px;
+}

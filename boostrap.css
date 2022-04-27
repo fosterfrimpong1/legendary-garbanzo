@@ -1,19 +1,38 @@
 .explore{
-    border: 2px solid black;
+    border: 0px solid black;
 }
 .space{
-    border: 2px solid black;
+    border: 0px solid black;
     margin: 20px;
 }
 .onga{
-    border: 2px solid black;
+    border: 0px solid black;
 
 }
 .return{
-    border: 2px solid black;
+    border: 0px solid black;
     margin: 20px;
 
 }
 .sunwhatt{
-    border: 2px solid black;
+    border: 0px solid black;
+}
+.call{
+    border: 0px solid black;
+    margin: 20px;
+}
+.sat{
+    border: px solid black;
+}
+.kumasi{
+    border: 0px solid black;
+    margin: 20px;
+}
+.phone{
+    border: px solid black;
+    height: 200px;
+    background-color: azure;
+}
+.text-center{
+    padding-top: 150px;
 }
