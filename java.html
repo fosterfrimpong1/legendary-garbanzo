@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
+    <title>Functions </title>
 </head>
 <body>
 
@@ -18,190 +18,23 @@
     
     <script>
 
-    let name = 'foster frimpong';
-    document.write(name);
-
-
-    var favoriteAnimal = 'cat'
-    console.log(favoriteAnimal);
-
-    const numOfBlocks = 10;
-    console.log(numOfBlocks);
-
-    let changeYou = true;
-    changeYou = 'I am happy';
-    console.log(changeYou);
-
-    let maxHeat = 200;
-    let speedLimit = 12;
-    let maxSpeed = 100;
-
-    maxHeat += 10;
-    speedLimit *= 20;
-    maxSpeed /= 20;
-
-    let totalSpeed = speedLimit + maxSpeed;
-
-    console.log('the maximum heat is', maxHeat);
-    console.log('the speed limit of the car is', speedLimit);
-    console.log('the maximum speed of the car is ', maxSpeed);
-    console.log('this is the total speed', totalSpeed);
-
-    totalSpeed++;
-    console.log(totalSpeed);
-
-
-    let lostCedi = 100;
-    lostCedi++;
-
-    console.log(lostCedi);
-
-
-    let myBestcar = 'benz';
-    
-    console.log('my all time car is','' + myBestcar);
-
-    var myOwnname = 'foster frimpong';
-    var fromCountry = 'Ghana';
-    var fromCity = 'accra';
-    var Bestfood = 'banku with okro stew';
-    console.log(`my name is ${myOwnname}. I am from ${fromCountry}. ${fromCity} to be precise. my favorate food is ${Bestfood}`);
-
-
-    let newName = 'joseph';
-    console.log( typeof newName);
-
-    newName = 10;
-    console.log(typeof newName);
-
-    newNmae = false;
-    console.log(typeof newName);
+    let student = 'foster frimpong';
+    document.write(student);
 
 
 
 
-    let seconds = 60;
-    console.log(seconds);
-
-    let minutes = seconds;
-    console.log(minutes);
-
-    let hour = seconds + minutes;
-    console.log(hour);
-
-    console.log( `${seconds} seconds makes a one minute. ${minutes} minutes makes one  hour`);
-
-    hour = Math.floor(hour);
-    console.log(hour);
 
 
 
-
-    let sale = true;
-    sale = false;
-
-    if (sale){
-        console.log( typeof'this is expensive');
-    } else {
-        console.log('this is too expensive');
-    }
-    
-    let myHeight = 60;
-
-    if (myHeight > 60.1) {
-    console.log('i am too tall')
+function test(a, b) {
+  if(a > b) {
+    return a*b; 
 } else {
-    console.log('i am too short');
-
-
-    var weather = 'cloudy';
-
-    if (weather === 'cloudy') {
-        console.log('it is going to rain')
-    } else {
-        console.log('it will not rain');
+     return b / a; 
     }
-
-    let focas = 'sunny';
-    let percentage = 50;
-
-    if (focas !== 'sunny' || percentage === 50){
-        console.log('the sun will not shine ')
-    } else {
-        console.log('the heat will be too much');
-    }
-
-
-
-
-    let cabine = true;
-    console.log(!cabine);
-
-
-    let numCount = '';
-
-    if (numCount) {
-        console.log('i am higher')
-    } else {
-        console.log('i am lower')
-    };
-
-
-    let season = 'winter';
-    let seasons = '';
-
-    if ( season === 'summer'){
-        console.log('it will rain')
-    } else if (seasons === 'winter'){
-        console.log ('it will not rain');
-    } else if (season === 'autum'){
-        console.log('we are in trouble')
-    }
-    else {
-        console.log ('nothing will happen')
-    };
-
-
-    let mySurname = 'frimpong';
-
-    switch (mySurname){
-        case 'frimpon':
-            console.log('this is my surname')
-            break;
-            case 'abena':
-                console.log('this is not my name')
-                break;
-                case 'Ama':
-                    console.log('this is neither my name')
-                    break;
-                    default:
-                        console.log('either names are for me')
-                        break;
-    };
-
-let i = 10;
-
-   for (let i=1; i<10; i++){
-       console.log( 'take ten steps forward')
-   }
-
-   let b = 0;
-    do {
-        b +=1
-        console.log(b)
-
-    }while (b< 10)
-
 }
-
-let x = 0
-let n = 0
- 
-while (x < 4){
-    x++; n+=x
-}console.log(n)
-console.log(x)
-
+alert(test(5, 15));
 
 
     </script>
