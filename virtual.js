@@ -18,3 +18,9 @@ function logLarghetto (){
  };
 
  console.log(logThecourse());
+
+
+let x = 36
+
+
+ console.log(Math.sqrt(36));
